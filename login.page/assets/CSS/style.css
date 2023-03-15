@@ -13,6 +13,48 @@ body {
     text-align: center;
 }
 
+.formulario {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.label-input {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: 2s;
+    width: 100%;
+}
+
+.input-btn:hover {
+    background-color: #e01515;
+}
+
 .footer {
     background-color: #333;
     color: white;
